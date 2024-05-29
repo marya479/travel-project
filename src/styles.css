@@ -11,6 +11,14 @@ body {
 .text-center {
   text-align: center;
 }
+.embed {
+  width: 100%;
+  aspect-ratio: 1 /1;
+}
+
+.instagram-embeds {
+  margin: 30px 0;
+}
 
 .grid {
   display: grid;
@@ -148,7 +156,19 @@ main p {
   color: #272044;
   opacity: 0.7;
 }
-
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #462cb3;
+  text-decoration: none;
+}
 footer {
   color: white;
   background-image: linear-gradient(
@@ -215,5 +235,13 @@ footer a {
 
   section {
     padding: 30px;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16 / 9;
   }
 }
